@@ -5,7 +5,7 @@ const VehicleModule = require("./vehicleBaseClass");
 let v = new VehicleModule.Vehicle("Mecury", "Sedan", "1965", "color", "mileage");
 console.log(v.make);
 
-class Mercury extends VehicleModule.Vehicle {git 
+class Mercury extends VehicleModule.Vehicle { 
     constructor(make, model, year, color, mileage) {
         super(make, model, year, color, mileage);
         this.maximumPassengers = 5;
